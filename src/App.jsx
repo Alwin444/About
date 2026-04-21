@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mail, ExternalLink, GraduationCap, MapPin, Building, X, Send, Bot, User } from 'lucide-react';
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-
+import profileImg from './assets/port.jpeg';
 
 export default function App() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0, px: -1000, py: -1000 });
@@ -142,10 +142,11 @@ export default function App() {
 
             <div className="relative w-full h-full rounded-full overflow-hidden bg-[#0a0f16] shadow-[0_0_40px_rgba(6,182,212,0.15)] border border-white/10 transition-shadow duration-500 group-hover:border-cyan-500/30">
               <img 
-                src="port.jpeg?q=80&w=800&auto=format&fit=crop" 
+                src={profileImg} 
                 alt="Alwin George" 
                 className="w-full h-full object-cover opacity-90 transition-all duration-700 ease-out"
               />
+                
               <div className="absolute inset-0 rounded-full shadow-[inset_0_0_30px_rgba(0,0,0,0.8)] pointer-events-none group-hover:shadow-[inset_0_0_15px_rgba(0,0,0,0.5)] transition-shadow duration-700" />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-500/10 to-transparent pointer-events-none mix-blend-overlay" />
             </div>
@@ -197,7 +198,7 @@ export default function App() {
           </div>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm sm:text-base text-gray-400 font-medium tracking-widest uppercase mt-2">
-            <span className="text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Web Devolping</span>
+            <span className="text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Backend Devolping</span>
             <span className="hidden sm:block w-1.5 h-1.5 rounded-full bg-indigo-500/60" />
             <span className="text-indigo-400 drop-shadow-[0_0_8px_rgba(99,102,241,0.3)]">CyberSecurity</span>
           </div>
