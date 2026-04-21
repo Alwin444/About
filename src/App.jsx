@@ -142,7 +142,7 @@ export default function App() {
 
             <div className="relative w-full h-full rounded-full overflow-hidden bg-[#0a0f16] shadow-[0_0_40px_rgba(6,182,212,0.15)] border border-white/10 transition-shadow duration-500 group-hover:border-cyan-500/30">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
+                src="port.jpeg?q=80&w=800&auto=format&fit=crop" 
                 alt="Alwin George" 
                 className="w-full h-full object-cover opacity-90 transition-all duration-700 ease-out"
               />
@@ -197,9 +197,9 @@ export default function App() {
           </div>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm sm:text-base text-gray-400 font-medium tracking-widest uppercase mt-2">
-            <span className="text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Software Developer</span>
+            <span className="text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">Web Devolping</span>
             <span className="hidden sm:block w-1.5 h-1.5 rounded-full bg-indigo-500/60" />
-            <span className="text-indigo-400 drop-shadow-[0_0_8px_rgba(99,102,241,0.3)]">Network Engineering</span>
+            <span className="text-indigo-400 drop-shadow-[0_0_8px_rgba(99,102,241,0.3)]">CyberSecurity</span>
           </div>
         </div>
 
