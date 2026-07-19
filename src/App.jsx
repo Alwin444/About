@@ -35,10 +35,10 @@ export default function App() {
   // Direct Gemini API Call (Configured for GitHub Pages)
   const callGeminiAPI = async (userText) => {
     // PASTE YOUR RESTRICTED API KEY HERE
-    const apiKey = "AIzaSyBSUZDBkLPdbf0wvh8B2IsgPLxZu74FSag"; 
+    const apiKey = ""; 
     
-    if (apiKey === "AIzaSyBSUZDBkLPdbf0wvh8B2IsgPLxZu74FSag") {
-      return "API Error";
+    if (apiKey === "") {
+      return "This feauture under devolpment";
     }
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
@@ -52,7 +52,7 @@ export default function App() {
     const payload = {
       contents: formattedHistory,
       systemInstruction: {
-        parts: [{ 
+        parts: [{
           text: `You are Nexus AI, the exclusive virtual assistant for Alwin George. 
           
           Alwin's Details:
