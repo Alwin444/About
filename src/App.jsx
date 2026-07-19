@@ -82,7 +82,7 @@ export default function App() {
       return data.candidates[0].content.parts[0].text;
     } catch (error) {
       console.error(error);
-      return "Communication link disrupted. Please try again later.";
+      return "I am not born yet bro, I will start to work when i born.";
     }
   };
 
